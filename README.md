@@ -45,6 +45,7 @@ Supported Apps 64-bit!
 - DIRECTV,Inc (iPhone)
 - Flixster
 - MobileIron
+- SkyGo
 - Skype
 - Square
 - TWC TV TimeWarnerCable 
