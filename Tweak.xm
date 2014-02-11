@@ -1,0 +1,21 @@
+// ClassName
+%hook ?????????????
+
+// Hooking a class method
++(????)???????????????????????????? {
+	// UIAlertView not needed only return false;
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hacked!"
+	message:@"No Jailbreak Detected!"
+	delegate:self
+	cancelButtonTitle:@"OK"
+	otherButtonTitles:nil];
+
+	[alert show];
+	[alert release];
+	%log;
+    NSLog(@"Hey, we're hooking into this Hack:!");
+	return TRUE;
+
+}
+%end
+

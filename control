@@ -1,0 +1,9 @@
+Package: com.sysent.expose
+Name: Exposé
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Bypass Jailbreak Detection!
+Maintainer: cabralcole
+Author: cabralcole
+Section: Tweaks
